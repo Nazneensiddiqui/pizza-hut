@@ -1,0 +1,199 @@
+body {
+    overflow-x: hidden;
+    font-family: verdana;
+}
+
+.nav {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+    
+
+}
+.big{
+    img{
+        background-size: contain;
+        width: 100%;
+        height: 350px;
+    }
+}
+
+
+
+.nav button {
+    border: none;
+    background-color: white;
+    color: rgb(126, 147, 148);
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(155, 171, 172);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.our h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.papa {
+    margin-left: 210px;
+    flex-wrap: wrap-reverse;
+}
+
+.view{
+    background-color: darkgreen;
+    color: white;
+    width: 910px;
+    margin-left: 210px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+
+.view p{
+    padding-top:10px ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+
+.ch {
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ch ul li{
+    position: relative;
+    right: 30px;
+    font-size: 13px;
+    line-height: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.block{
+    color: white;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.app{
+    border: 0.1px solid;
+    height: 30px;
+    width: 130px;
+    border-radius:8px;
+    position: relative;
+    left: 40%;
+    display: flex;
+    padding: 10px;
+
+}
+.app p{
+    font-size: 8px;
+    position: relative;
+    bottom:10px ;
+    left: 8px;
+}
+
+.app h4{
+    font-size: 15px;
+    position: relative;
+    bottom:30px ;
+}
+
+.app i{
+font-size: 25px;
+
+}
+
+.better{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+     flex-wrap: wrap-reverse;
+}
+
+.you{ display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 100px;
+    gap: 10px;
+
+}
+
+.you button{
+    border: 1px  solid;
+    width:150px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(70, 83, 84);
+}
+
+
+.fllow ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.fllow h4{
+    
+    position: relative;
+    left: 55px;
+}
+.fllow{
+    position: relative;
+    bottom: 20px;
+    right: 20px; 
+
+}
+
+.pizza{
+    font-size: 11px;
+    color: rgb(100, 103, 104);
+    line-height: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap-reverse;
+}
+.pizza img{
+    border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .view{
+        width:400px;
+    }
+    .papa{
+        width: 100%;
+        margin-left: -80px;
+    }
+    
+}
